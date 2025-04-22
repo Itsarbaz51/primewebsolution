@@ -9,10 +9,10 @@ export function Approach() {
       <div className=" mt-[-120px] flex flex-wrap gap-4 justify-between items-center">
         <CardSpotlight className="h-100 w-96">
           <p className="text-xl font-bold relative z-20 mt-2 text-white">
-            The primewebsolution way, Crafting Custom Digital Solution
+            The primewebdev way, Crafting Custom Digital Solution
           </p>
           <div className="text-neutral-200 mt-4 relative z-20">
-            Steps taken by primewebsolution:
+            Steps taken by primewebdev:
             <ul className="list-none mt-2">
               <Step title="Discovery and Strategy" />
               <Step title="Design and Development" />
@@ -31,7 +31,7 @@ export function Approach() {
             Your Success Journey, Building a Powerful Online Presence
           </p>
           <div className="text-neutral-200 mt-4 relative z-20">
-            Steps taken by primewebsolution:
+            Steps taken by primewebdev:
             <ul className="list-none mt-2">
               <Step title="Consultaion & Planning" />
               <Step title="Design & User Experience" />
@@ -39,7 +39,7 @@ export function Approach() {
             </ul>
           </div>
           <p className="text-neutral-300 mt-4 relative z-20 text-sm">
-            primewebsolution is committed to guiding you through the process of
+            primewebdev is committed to guiding you through the process of
             establishing a powerfull online presence. From planning to
             optimization, we work with you every step of the way to ensure your
             website is a success.
@@ -50,7 +50,7 @@ export function Approach() {
             Results-Driven Web Development, Turning Vision into Reality
           </p>
           <div className="text-neutral-200 mt-4 relative z-20">
-            Steps taken by primewebsolution:
+            Steps taken by primewebdev:
             <ul className="list-none mt-2">
               <Step title="Goal Setting & Research" />
               <Step title="Custom Design & Development" />

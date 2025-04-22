@@ -7,7 +7,7 @@ export const servicesData = [
     title: "Website Development",
     value: "Website Development",
     description:
-      "Your website is the digital face of your business, and we ensure it makes a lasting impression. At primewebsolution, we develop websites that are not only visually stunning but also fast, responsive, and SEO-friendly. Our development process is rooted in understanding your business needs, creating custom solutions, and leveraging the latest technologies. By choosing primewebsolution, you're investing in a website that drives conversions and delivers a seamless user experience.",
+      "Your website is the digital face of your business, and we ensure it makes a lasting impression. At primewebdev, we develop websites that are not only visually stunning but also fast, responsive, and SEO-friendly. Our development process is rooted in understanding your business needs, creating custom solutions, and leveraging the latest technologies. By choosing primewebdev, you're investing in a website that drives conversions and delivers a seamless user experience.",
     img: "/web01.svg",
   },
   {
@@ -15,7 +15,7 @@ export const servicesData = [
     title: "UI/UX Design",
     img: "/UIUX02.svg",
     description:
-      "A great user experience is key to retaining customers and building loyalty. Our UI/UX design services at primewebsolution focus on creating intuitive and engaging interfaces that resonate with your target audience. We conduct thorough research and usability testing to ensure every design decision is made with the user in mind. Choose primewebsolution to create a digital experience that's both beautiful and functional.",
+      "A great user experience is key to retaining customers and building loyalty. Our UI/UX design services at primewebdev focus on creating intuitive and engaging interfaces that resonate with your target audience. We conduct thorough research and usability testing to ensure every design decision is made with the user in mind. Choose primewebdev to create a digital experience that's both beautiful and functional.",
   },
   {
     id: 3,
@@ -36,7 +36,7 @@ export const servicesData = [
     title: "Thumbnail Design",
     img: "/thumbnail06.png",
     description:
-      "First impressions matter, and in the digital world, your thumbnail is often the first thing potential customers see. primewebsolution's thumbnail design service ensures that your visuals capture attention and convey your brand's message at a glance. We combine creative design with strategic thinking to craft thumbnails that boost click-through rates and engagement.",
+      "First impressions matter, and in the digital world, your thumbnail is often the first thing potential customers see. primewebdev's thumbnail design service ensures that your visuals capture attention and convey your brand's message at a glance. We combine creative design with strategic thinking to craft thumbnails that boost click-through rates and engagement.",
   },
   {
     id: 6,

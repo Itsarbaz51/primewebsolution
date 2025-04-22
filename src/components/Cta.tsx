@@ -21,7 +21,7 @@ export default function Cta() {
           <p
             className={`text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-1xl`}
           >
-            Turn your online ideas into reality with primewebsolution. Reach out today to
+            Turn your online ideas into reality with primewebdev. Reach out today to
             start building a stronger, more effective digital presence. we're
             here to help you succed-let's begin!.
           </p>

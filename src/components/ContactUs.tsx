@@ -87,7 +87,7 @@ export function ContactUs() {
         </div>
         <div className="w-full max-w-md bg-white dark:bg-black-100 rounded-lg p-4 md:p-8 shadow-md">
           <h2 className="font-bold text-lg md:text-xl text-neutral-400 dark:text-neutral-200">
-            Welcome to primewebsolution
+            Welcome to primewebdev
           </h2>
           <p className="text-neutral-600 text-sm md:text-base max-w-sm mt-2 dark:text-neutral-300">
             Ready to Boost Your Digital Presence? Let's Make it Happen!

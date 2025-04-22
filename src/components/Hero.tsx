@@ -37,7 +37,7 @@ export default function Hero() {
             words="Crafting Your Digital Presence, One Snap at a Time"
           />
           <p className={` text-center md:tracking-wider mb-10 text-sm md:text-lg lg:text-1xl`}>
-            At primewebsolution, we turn your vision into reality with innovative web development and design solutions that stand out and engage your audience.
+            At primewebdev, we turn your vision into reality with innovative web development and design solutions that stand out and engage your audience.
           </p>
           <div className={``}>
             <Link href="/#contact">

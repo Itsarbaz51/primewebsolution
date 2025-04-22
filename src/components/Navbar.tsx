@@ -5,6 +5,7 @@ import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
+import { MdCall } from "react-icons/md";
 
 interface FullscreenPopupMenuProps {
   isOpen: boolean;
@@ -20,7 +21,7 @@ const Navbar: React.FC = () => {
   return (
     <>
       <nav className="sticky bg-black/20 z-50  top-0 backdrop-blur text-white flex items-start sm:items-center justify-between px-4 sm:px-8 py-3 sm:py-4 border left-0 border-gray-400/50 w-full sm:border-none ">
-        <div className="flex items-center gap-3">
+        <div className="flex items-center justify-between gap-4 sm:gap-3">
           <button
             onClick={openMenu}
             className="hover:scale-110 transition-transform duration-300  sm:hidden"
@@ -41,8 +42,8 @@ const Navbar: React.FC = () => {
             </svg>
           </button>
           <Link href="/">
-            <div className="flex justify-center items-center">
-              <Image width={300} height={100} src="/logo.svg" alt="logo" />
+            <div className="flex justify-center sm:scale-125 sm:px-6 items-center ">
+              <Image width={220} height={100} src="/logo.svg" alt="logo" />
             </div>
           </Link>
         </div>
@@ -74,9 +75,10 @@ const Navbar: React.FC = () => {
           </Link>
           <Link
             href="/#contact"
-            className="bg-white text-xs text-black px-2 sm:px-3 py-2 rounded-lg hover:bg-gray-100 transition-all duration-300"
+            className="bg-white text-xs text-black p-1 sm:px-3 sm:py-2 rounded-lg hover:bg-gray-100 transition-all duration-300"
           >
-            Contact Us
+            <span className="hidden sm:block">Contact us</span>
+            <span className="sm:hidden"><MdCall className="text-lg" /></span>
           </Link>
         </div>
       </nav>
