@@ -107,7 +107,7 @@ export const InfiniteMovingCards = ({
               <div className="relative z-20 mt-6 flex flex-row items-center">
                 <span className="px-2">
                   <Image
-                    src={item?.img || "/testimonials-client/man.png"}
+                    src={item?.img || "https://drive.google.com/uc?export=view&id=1CPEc1pdAslenyv0ULlP8phyzDv1LB6go"}
                     alt={item?.title}
                     width={40}
                     height={50}

@@ -57,38 +57,38 @@ const data = [
   {
     // category: "Artificial Intelligence",
     // title: "You can do more with AI.",
-    src: "/projects/cafe.jpg",
+    src: "https://drive.google.com/uc?export=view&id=1xttdfxQiXA3OzgaH3bqvk8tc2T-49TEZ",
     content: <DummyContent />,
   },
   {
     // category: "Productivity",
     // title: "Enhance your productivity.",
-    src: "/projects/gym.jpg",
+    src: "https://drive.google.com/uc?export=view&id=1oAeZqJQ70KYpXlEx9RajZwDVq18aepwm",
     content: <DummyContent />,
   },
   {
     // category: "Product",
     // title: "Launching the new Apple Vision Pro.",
-    src: "/projects/jewellers.jpg",
+    src: "https://drive.google.com/uc?export=view&id=1lYOYTIX5uUIgThzdczD3O-tNI0ErT1gv",
     content: <DummyContent />,
   },
 
   {
     // category: "Product",
     // title: "Maps for your iPhone 15 Pro Max.",
-    src: "/projects/qitchen.jpg",
+    src: "https://drive.google.com/uc?export=view&id=1g7iL2Ix5ylBVcGaZn7xrDXBE3JvCIBAu",
     content: <DummyContent />,
   },
   {
   //   // category: "Product",
   //   // title: "Maps for your iPhone 15 Pro Max.",
-     src: "/products/kingfishlogistics.png",
+     src: "https://drive.google.com/uc?export=view&id=1Wh02-paWYsbWOKzERK0snyL9CHqp_cDH",
      content: <DummyContent />,
   },
   {
   //   // category: "Product",
   //   // title: "Maps for your iPhone 15 Pro Max.",
-     src: "/projects/salon.png",
+     src: "https://drive.google.com/uc?export=view&id=1LBRe7tjHTvRtpp0dHdZIL0Rlfl-kNC7I",
      content: <DummyContent />,
   },
 ];

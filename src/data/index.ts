@@ -55,7 +55,7 @@ export const testimonials = [
       "A leading retailer partnered with us to revamp their e-commerce platform. By integrating a scalable solution with optimized user experience, they achieved a 40% increase in online sales within six months.",
     title: "Boosted E-Commerce Sales with a Scalable Platform",
     name: "Rohit",
-    img: "/testimonials-client/01.png",
+    img: "https://drive.google.com/uc?export=view&id=1N9g-zCIE0ayo7HhEoBrlODrm3R9rh87o",
   },
   {
     id: 1,
@@ -63,7 +63,7 @@ export const testimonials = [
       "Our advanced logistics platform streamlined operations for a leading supply chain company, reducing delivery times by 25% and cutting operational costs by 18%. With real-time tracking, predictive analytics, and automated workflows, we empowered the client to scale efficiently and enhance customer satisfaction.",
     name: "William Shakespeare",
     title: "Transforming Logistics ",
-    img: "/testimonials-client/02.png",
+    img: "https://drive.google.com/uc?export=view&id=1W9cj4MmYTKqZHilmc8V9h3JA4Z2HTd20",
   },
   {
     id: 2,
@@ -145,52 +145,52 @@ export const products = [
   {
     title: "Jewellery Portfolio",
     link: "#",
-    thumbnail: "/projects/jewellers.jpg",
+    thumbnail: "https://drive.google.com/uc?export=view&id=1lYOYTIX5uUIgThzdczD3O-tNI0ErT1gv",
   },
   {
     title: "Arbaz Khan",
     link: "https://arbazdev.vercel.app/",
-    thumbnail: "/products/arbazPortfolio.png",
+    thumbnail: "https://drive.google.com/uc?export=view&id=1vje6syOIH7zyRybExauBFy6TAM_0HUFp",
   },
   {
     title: "Samir Kayamkhani",
     link: "https://my-portfolio-ochre-omega-35.vercel.app/",
-    thumbnail: "/products/samirPortfolio.png",
+    thumbnail: "https://drive.google.com/uc?export=view&id=1uDzx7zlP0BgYaW5dxOPzfYciUe9VSjEp",
   },
   {
     title: "School Management System",
     link: "#",
-    thumbnail: "/products/school.png",
+    thumbnail: "https://drive.google.com/uc?export=view&id=1aT60AeiW9NQQfA9ltTWW35HtAahsV7Pl",
   },
   {
     title: "cafe",
     link: "#",
     thumbnail:
-      "/projects/cafe.jpg",
+      "https://drive.google.com/uc?export=view&id=1xttdfxQiXA3OzgaH3bqvk8tc2T-49TEZ",
   },
   {
     title: "Arbaz Khan",
     link: "https://arbazdev.vercel.app/",
-    thumbnail: "/products/arbazPortfolio.png"
+    thumbnail: "https://drive.google.com/uc?export=view&id=1vje6syOIH7zyRybExauBFy6TAM_0HUFp"
   },
 
   {
     title: "cafe",
     link: "#",
     thumbnail:
-      "/projects/cafe.jpg",
+      "https://drive.google.com/uc?export=view&id=1xttdfxQiXA3OzgaH3bqvk8tc2T-49TEZ",
   },
   {
     title: "Devendra Singh",
     link: "https://devendra0007.vercel.app",
     thumbnail:
-      "/products/devendraPortfolio.png",
+      "https://drive.google.com/uc?export=view&id=1H1J343ZfaObPSMUG6JPl_coJ60AiHiXO",
   },
   {
     title: "School Management System",
     link: "#",
     thumbnail:
-      "/products/school.png",
+      "https://drive.google.com/uc?export=view&id=1aT60AeiW9NQQfA9ltTWW35HtAahsV7Pl",
   },
   
 ];

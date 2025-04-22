@@ -34,7 +34,7 @@ export function ContactUs() {
     {
       title: "Linkedin",
       icon: <IconBrandLinkedin className="h-full w-full text-neutral-300" />,
-      href: "https://www.linkedin.com/in/primeweb-dev-856522361?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      href: "https://www.linkedin.com/in/primewebdev",
     },
     {
       title: "Twitter",
