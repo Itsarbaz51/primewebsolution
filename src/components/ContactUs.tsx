@@ -8,6 +8,7 @@ import { cn } from "@/lib/utils";
 import { Textarea } from "./ui/textarea";
 import {
   IconBrandFacebook,
+  IconBrandGithub,
   IconBrandInstagram,
   IconBrandLinkedin,
   IconBrandX,
@@ -22,29 +23,29 @@ export function ContactUs() {
     {
       title: "Instagram",
       icon: <IconBrandInstagram className="h-full w-full text-neutral-300" />,
-      href: "#",
+      href: "https://www.instagram.com/primewebdev_?igsh=MXVjNHRxbWNrM25qdw==",
     },
 
     {
       title: "Facebook",
       icon: <IconBrandFacebook className="h-full w-full text-neutral-300" />,
-      href: "#",
+      href: "https://www.facebook.com/share/18uD4UqvAG/",
     },
     {
       title: "Linkedin",
       icon: <IconBrandLinkedin className="h-full w-full text-neutral-300" />,
-      href: "#",
+      href: "https://www.linkedin.com/in/primeweb-dev-856522361?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
     {
       title: "Twitter",
       icon: <IconBrandX className="h-full w-full text-neutral-300" />,
-      href: "#",
+      href: "https://x.com/primewebdev_?t=sIA_1mfn-nl4Ee23HtRCQA&s=09",
     },
-    // {
-    //   title: "GitHub",
-    //   icon: <IconBrandGithub className="h-full w-full text-neutral-300" />,
-    //   href: "#",
-    // },
+    {
+      title: "GitHub",
+      icon: <IconBrandGithub className="h-full w-full text-neutral-300" />,
+      href: "https://github.com/primewebdevsolution",
+    },
   ];
 
   if (state.succeeded) {
@@ -95,8 +96,6 @@ export function ContactUs() {
 
           <form
             className="my-8"
-            // action={"https://formspree.io/f/xpwzvore"}
-            // method="POST"
             onSubmit={handleSubmit}
           >
             <div className="flex flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 mb-4">

@@ -22,6 +22,7 @@ export const HeroParallax = ({
   const firstRow = products.slice(0, 5);
   const secondRow = products.slice(5, 10);
   const thirdRow = products.slice(10, 15);
+
   const ref = React.useRef(null);
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -54,10 +55,11 @@ export const HeroParallax = ({
     useTransform(scrollYProgress, [0, 0.2], [-700, 500]),
     springConfig
   );
+
   return (
     <div
       ref={ref}
-      className="h-[300vh] py-40 overflow-hidden rounded-t-[1rem]  antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d] "
+      className="h-[300vh] py-40 overflow-hidden rounded-t-[1rem] antialiased relative flex flex-col [perspective:1000px] [transform-style:preserve-3d]"
     >
       <Header />
       <motion.div
@@ -67,9 +69,8 @@ export const HeroParallax = ({
           translateY,
           opacity,
         }}
-        className=""
       >
-        <motion.div className="flex flex-row-reverse space-x-reverse space-x-20 mb-20">
+        <motion.div className="flex flex-nowrap flex-row-reverse gap-6 mb-20 overflow-x-hidden px-4 sm:px-8">
           {firstRow.map((product) => (
             <ProductCard
               product={product}
@@ -78,7 +79,7 @@ export const HeroParallax = ({
             />
           ))}
         </motion.div>
-        <motion.div className="flex flex-row  mb-20 space-x-20 ">
+        <motion.div className="flex flex-nowrap flex-row gap-6 mb-20 overflow-x-hidden px-4 sm:px-8">
           {secondRow.map((product) => (
             <ProductCard
               product={product}
@@ -87,7 +88,7 @@ export const HeroParallax = ({
             />
           ))}
         </motion.div>
-        <motion.div className="flex flex-row-reverse space-x-reverse space-x-20">
+        <motion.div className="flex flex-nowrap flex-row-reverse gap-6 overflow-x-hidden px-4 sm:px-8">
           {thirdRow.map((product) => (
             <ProductCard
               product={product}
@@ -103,11 +104,11 @@ export const HeroParallax = ({
 
 export const Header = () => {
   return (
-    <div className="max-w-7xl relative mx-auto py-20 md:py-40 px-4 w-full  left-0 top-0">
-      <h1 className="text-2xl md:text-7xl font-bold dark:text-white">
+    <div className="max-w-7xl relative mx-auto py-20 md:py-40 px-4 w-full">
+      <h1 className="text-3xl md:text-7xl font-bold dark:text-white">
         The Ultimate <br /> development studio
       </h1>
-      <p className="max-w-2xl text-base md:text-xl mt-8 dark:text-neutral-200">
+      <p className="max-w-2xl text-base md:text-xl mt-6 md:mt-8 dark:text-neutral-200">
         We build beautiful products with the latest technologies and frameworks.
         We are a team of passionate developers and designers that love to build
         amazing products.
@@ -129,30 +130,25 @@ export const ProductCard = ({
 }) => {
   return (
     <motion.div
-      style={{
-        x: translate,
-      }}
-      whileHover={{
-        y: -20,
-      }}
-      key={product.title}
-      className="group/product h-96 w-[30rem] relative flex-shrink-0"
+      style={{ x: translate }}
+      whileHover={{ y: -20 }}
+      className="group/product h-80 sm:h-96 w-[18rem] sm:w-[22rem] md:w-[26rem] lg:w-[30rem] relative flex-shrink-0"
     >
       <Link
         href={product.link}
-        className="block group-hover/product:shadow-2xl "
+        className="block group-hover/product:shadow-2xl"
         target="_blank"
       >
         <Image
           src={product.thumbnail}
-          height="600"
-          width="600"
+          height={600}
+          width={600}
           className="object-contain absolute h-full w-full inset-0"
           alt={product.title}
         />
       </Link>
-      <div className="absolute inset-0 h-full w-full opacity-0 group-hover/product:opacity-80 bg-black pointer-events-none"></div>
-      <h2 className="absolute bottom-4 left-4 opacity-0 group-hover/product:opacity-100 text-white">
+      <div className="absolute inset-0 h-full w-full opacity-0 group-hover/product:opacity-80 bg-black pointer-events-none transition duration-300" />
+      <h2 className="absolute bottom-4 left-4 opacity-0 group-hover/product:opacity-100 text-white text-lg font-semibold transition duration-300">
         {product.title}
       </h2>
     </motion.div>
